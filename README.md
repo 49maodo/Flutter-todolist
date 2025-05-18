@@ -1,16 +1,22 @@
-# rattrap
+# 💸 Mini App de Gestion de Transactions
 
-A new Flutter project.
+Cette application Flutter permet de gérer une liste de transactions (dépenses et revenus) avec les fonctionnalités suivantes :
 
-## Getting Started
+- 🧾 **CRUD complet des transactions**
+- 📂 **Catégorisation des transactions**
+- 🚀 **Splash screen d’introduction**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧑‍💻 Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Ajouter, modifier et supprimer une transaction
+- Afficher les transactions
+- Utilisation d’un modèle `Transaction` avec :
+  - montant
+  - date
+  - description
+  - catégorie
+  - type (`Dépense` ou `Revenu`)
+- Liste des transactions affichée de manière lisible avec date et icônes
+- Architecture simple et claire
